@@ -75,11 +75,36 @@ footer{
 }
 
 article{
-    grid-row-start: 1/6;
+    grid-row: 6/6;
     grid-column: 1/6;
     background-color: lightgray;
     overflow: hidden;
     padding: 10px;
     color: #444;
     
+}
+
+.våraProdukter{
+    font-size: 300%;
+}
+
+
+
+.omOssHead{
+    text-align: center;
+    font-size: 600%;
+}
+
+table{
+    border-spacing: 0;
+    width: 40%;
+}
+thead{
+    background-color: #444;
+}
+tbody td:nth-child(3){
+    text-align: center;
+}
+tbody td:nth-child(2){
+    padding-left: 30px;
 }
