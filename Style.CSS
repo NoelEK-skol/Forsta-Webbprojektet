@@ -86,13 +86,23 @@ article{
 
 .våraProdukter{
     font-size: 300%;
+    margin-left: 7%;
 }
 
+#pb{
+    text-align: center;
+    font-size: 300%
+}
 
 
 .omOssHead{
     text-align: center;
     font-size: 600%;
+}
+
+.kontakta{
+    text-align: center;
+    font-size: 400%;
 }
 
 table{
@@ -107,4 +117,42 @@ tbody td:nth-child(3){
 }
 tbody td:nth-child(2){
     padding-left: 30px;
+}
+tbody tr:nth-child(even){
+    background-color: gray;
+}
+
+#omossh2{
+    text-align: left;
+    padding: 40px;
+    font-size: 200%;
+}
+
+#omossText{
+    padding: 1%;
+}
+
+#pastag{
+    padding: 2%;
+}
+
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 3px solid hsl(34, 78%, 75%);
+}
+
+.item img {
+    width: 190px;
+    height: 190px;
+}
+
+.product-container {
+    display: flex;
+    margin-top: 100px;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 20px;
 }
