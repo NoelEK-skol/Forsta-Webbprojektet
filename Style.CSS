@@ -38,7 +38,8 @@ body{
     width: 100vw;
     height: 100vh;
     display: grid;
-    grid-template: repeat(5,1fr) /repeat(5,1fr)
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: minmax(1fr, auto); 
 }
 
 header{
@@ -186,13 +187,45 @@ tbody tr:nth-child(even){
 
 #omossText3 {
     padding: 1%;
-    text-align: center;
-    max-width: 20%;
+    margin-right: 250px;
+    width: 50%;
 }
 
 #pastaBild {
     width: 600px;
     height: auto;
-    margin-left: 50%;
+    margin-left: 15%;
     margin-bottom: 80%;
+    border: 4px solid #d1aa2e;
+}
+
+.pastaB-container {
+    display: flex;
+    margin-top: 10px;
+    width: 60vw;
+    justify-content: center;
+    flex-direction: row;
+    background-color: black;
+    margin-right: 10%;
+}
+
+.item2 {
+    width: 200px;
+    height: 200px;
+    margin-right: 20%;
+    background-color: black;
+}
+
+.parallax2 {
+    background-image: url(spaghetti-2208304_1280.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#parallax2 {
+    background-color: black;
+    height: 1000px;
+    overflow: hidden;
 }
