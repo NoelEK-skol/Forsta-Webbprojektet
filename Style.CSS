@@ -162,3 +162,37 @@ tbody tr:nth-child(even){
     flex-direction: row;
     column-gap: 20px;
 }
+
+
+
+.parallax {
+    background-image: url(top-view-Various-types-of-Italian-pasta.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax {
+    background-color: black;
+    height: 1000px;
+    overflow: hidden;
+}
+
+#omossText2 {
+    padding: 1%;
+}
+
+#omossText3 {
+    padding: 1%;
+    text-align: center;
+    max-width: 20%;
+}
+
+#pastaBild {
+    width: 600px;
+    height: auto;
+    margin-left: 50%;
+    margin-bottom: 80%;
+}
