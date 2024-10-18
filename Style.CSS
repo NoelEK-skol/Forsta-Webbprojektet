@@ -141,6 +141,12 @@ tbody tr:nth-child(even){
     height: 200px;
     background-color: white;
     border: 3px solid hsl(34, 78%, 75%);
+    
+    transition: transform .2s;
+}
+
+.item:hover {
+    transform: scale(1.5);
 }
 
 .item img {
